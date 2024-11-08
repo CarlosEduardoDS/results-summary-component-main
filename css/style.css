@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    font-family: 'Hanken Grotesk';
+    font-size: 18px
+}
+
+body{
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    user-select: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.box1{
+    height: 400px;
+    width: 300px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.your-result{
+    color: hsl(221, 100%, 96%);
+    margin: 10px;
+}
+
+.result-title{
+    margin: 20px;
+    opacity: 0.7;
+}
+
+.result-total{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: linear-gradient(hsl(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+
+.result{
+    font-size: 50px;
+    font-weight: bolder;
+    color: hsl(221, 100%, 96%);
+    opacity: 1.0;
+}
+
+.maxresult{
+    opacity: 0.7;
+}
+
+.message-title{
+    color: hsl(221, 100%, 96%);
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.message-content{
+    color: hsl(221, 100%, 96%);
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 20px 50px 0px 50px;
+    text-align: center;
+}
+
+.box2{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.summary-title{
+    color: hsl(224, 30%, 27%);
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.summary-reaction{
+    font-size: 15px;
+    font-weight: 500;
+    padding-inline: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    width: 80%;
+    background-color: hsla(0, 100%, 67%, 15%);
+    border-radius: 8px;
+    color: hsl(0, 100%, 67%);
+}
+
+.summary-reaction-title{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.summary-memory{
+    font-size: 15px;
+    font-weight: 500;
+    padding-inline: 10px;
+    margin-left: 20px;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    width: 80%;
+    background-color: hsla(39, 100%, 56%, 15%);
+    border-radius: 8px;
+    color: hsl(39, 100%, 56%);
+}
+
+.summary-memory-title{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.summary-verbal{
+    font-size: 15px;
+    font-weight: 500;
+    padding-inline: 10px;
+    margin-left: 20px;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    width: 80%;
+    background-color: hsla(166, 100%, 37%, 15%);
+    border-radius: 8px;
+    color: hsl(166, 100%, 37%);
+}
+
+.summary-verbal-title{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.summary-visual{
+    font-size: 15px;
+    font-weight: 500;
+    padding-inline: 10px;
+    margin-left: 20px;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    width: 80%;
+    background-color: hsla(234, 85%, 45%, 15%);
+    border-radius: 8px;
+    color: hsl(234, 85%, 45%);
+}
+
+.summary-visual-title{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.continue-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 20px;
+    border-radius: 30px;
+    height: 45px;
+    width: 87%;
+    color: hsl(221, 100%, 96%);;
+    background: linear-gradient(hsl(256, 72%, 46%, 90%), hsla(241, 72%, 46%, 90%));
+    transition: 400ms;
+}
+
+.continue-container:hover{
+    background: linear-gradient(90deg, hsl(0, 100%, 67%), hsl(39, 100%, 56%), hsl(166, 100%, 37%), hsl(234, 85%, 45%));
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.numeros{
+    color: hsl(224, 30%, 27%);
+}
+
+.numeros2{
+    opacity: 0.7;
+}
+
